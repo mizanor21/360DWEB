@@ -1,5 +1,11 @@
+import About from "./About/About";
+
 const Root = () => {
-  return <div>this is root!</div>;
+  return (
+    <div>
+      <About />
+    </div>
+  );
 };
 
 export default Root;
