@@ -3,6 +3,10 @@ import logo from "../../../assets/logo/logo.png";
 import email from "../../../assets/footer/email.png";
 import location from "../../../assets/footer/location.png";
 import telephone from "../../../assets/footer/telephone.png";
+import facebook from "../../../assets/footer/facebook.png";
+import instagram from "../../../assets/footer/instagram.png";
+import linkedin from "../../../assets/footer/linkedin-logo.png";
+import twitter from "../../../assets/footer/twitter.png";
 const Footer = () => {
   return (
     <div className="bg-[#01121e] bg-gradient-to-r from-[#000F1A] to-[#003259]">
@@ -18,6 +22,20 @@ const Footer = () => {
             and consultancy quality and operational excellence, enabling its
             clients across a wide range of industries to transform into a truly
             digital, data-driven enterprise.
+          </div>
+          <div className="flex gap-3 mt-[30px]">
+            <Link href="/">
+              <img src={facebook} alt="360d facebook logo" />
+            </Link>
+            <Link href="/">
+              <img src={instagram} alt="360d instagram logo" />
+            </Link>
+            <Link href="/">
+              <img src={linkedin} alt="360d linkedin logo" />
+            </Link>
+            <Link href="/">
+              <img src={twitter} alt="360d twitter logo" />
+            </Link>
           </div>
         </aside>
         <nav>
