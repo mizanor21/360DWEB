@@ -7,7 +7,7 @@ const About = () => {
         <div className=" p-[50px] rounded-md glass grid grid-cols-1 lg:grid-cols-2 gap-5">
           {/* <div className="">
           </div> */}
-          <video src={video} muted autoPlay className="rounded-lg"></video>
+          <video src={video} loop muted autoPlay className="rounded-lg"></video>
           <div className="">
             <p className="font-[Inter] border-[3px] w-44 font-medium border-[#1d72b8] text-center px-10 py-3 rounded">
               About Us
