@@ -23,7 +23,9 @@ const About = () => {
               business development solutions tailored to unlock potential, drive
               success and foster enduring partnerships.
             </p>
-            <button className="">Learn More</button>
+            <button className="bg-gradient-to-r from-[#013762] via-[#0080E5] to-[#013762] text-white px-10 py-3 mt-3 rounded-md">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
