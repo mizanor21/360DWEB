@@ -1,9 +1,10 @@
 import "./Goal.css";
+import rocket from "../../../assets/goal/rocket.png";
 const Goal = () => {
   return (
-    <div className="goal">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-24 py-20">
-        <div className="font-['Inter']">
+    <div className="goal ">
+      <div className="mx-5 lg:container lg:mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 font-['Inter']">
+        <div>
           <div className="text-4xl font-bold bg-gradient-to-r from-[#013762] via-[#0080E5] bg-clip-text text-transparent">
             Company Goal
           </div>
@@ -12,7 +13,7 @@ const Goal = () => {
             <span className="border-[3px] border-[#0077B6] w-[30px]"></span>
             <span className="border-[3px] border-[#03045E] w-[35px]"></span>
           </div>
-          <p className="text-justify">
+          <p className="text-justify lg:max-w-[80%]">
             360D SOUL is more than a business development firm, ensuring your
             business growth and partnership.Expertise and passion, we craft
             tailored solutions to elevate your business to a new heights. Let’s
@@ -20,9 +21,75 @@ const Goal = () => {
             landscape of success.
           </p>
         </div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
+        <div className="vision">
+          <div className=" flex flex-col ">
+            <div className="flex justify-end">
+              <div className="mr-5">
+                <img
+                  src={rocket}
+                  alt="Rocket Icon"
+                  className="w-16 h-auto mb-4"
+                />
+                <h2 className="text-3xl font-bold mb-4">Vision</h2>
+              </div>
+            </div>
+            <div className="flex justify-end items-end  right-0">
+              <div className="text-gray-700 text-[Inter] font-[17px] shadow-xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+                <p className="w-[250px]">
+                  The premier Sourcing and Organizational Development (OD)
+                  platform, setting the standard for excellence in our industry
+                  worldwide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="vision">
+          <div className=" flex flex-col">
+            <div className="flex justify-end">
+              <div className="mr-5">
+                <img
+                  src={rocket}
+                  alt="Rocket Icon"
+                  className="w-16 h-auto mb-4"
+                />
+                <h2 className="text-3xl font-bold mb-4">Values</h2>
+              </div>
+            </div>
+            <div className="flex justify-end items-end  right-0">
+              <div className="text-gray-700 text-[Inter] font-[17px] shadow-xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+                <p className="w-[250px]">
+                  offers comprehensive, cost-effective solutions for businesses
+                  of all types, from established enterprises to emerging
+                  startups.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="vision">
+          <div className=" flex flex-col">
+            <div className="flex justify-end">
+              <div className="mr-5">
+                <img
+                  src={rocket}
+                  alt="Rocket Icon"
+                  className="w-16 h-auto mb-4"
+                />
+                <h2 className="text-3xl font-bold mb-4">Mission</h2>
+              </div>
+            </div>
+            <div className="flex justify-end items-end  right-0">
+              <div className="text-gray-700 text-[Inter] font-[17px] shadow-xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+                <p className="w-[250px]">
+                  Our mission is to provide user-friendly, high-quality
+                  resourcing solutions that are trusted, dynamic, and rooted in
+                  local expertise, while simultaneously.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

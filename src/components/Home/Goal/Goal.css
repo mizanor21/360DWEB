@@ -3,3 +3,26 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.vision {
+    position: relative;
+    z-index: 50;
+}
+
+.vision::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/goal/Vector1.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Adjust to your needs */
+    z-index: 100;
+    /* Higher than other elements in .vision */
+    pointer-events: none;
+    /* Ensures that the pseudo-element doesn't interfere with user interaction */
+}
