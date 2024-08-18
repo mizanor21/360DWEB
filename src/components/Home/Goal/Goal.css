@@ -32,13 +32,13 @@
 }
 
 .vision::before {
-    background-image: url(../../../assets/goal/Vector3.png);
+    background-image: url(../../../assets/goal/green.png);
 }
 
 .values::before {
-    background-image: url(../../../assets/goal/Vector2.png);
+    background-image: url(../../../assets/goal/orange.png);
 }
 
 .mission::before {
-    background-image: url(../../../assets/goal/Vector1.png);
+    background-image: url(../../../assets/goal/blue.png);
 }
