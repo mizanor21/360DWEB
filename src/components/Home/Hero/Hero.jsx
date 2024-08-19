@@ -60,7 +60,7 @@ const Hero = () => {
       >
         <div className="flex gap-5 relative">
           <img className="w-[1000px] mb-10" src={banner2} />
-          <div className="absolute w-[900px] top-20 right-[0px] p-20 bg-white shadow-lg rounded-md">
+          <div className="absolute w-[900px] top-20 right-[0px] p-20 bg-white shadow-lg rounded-md ">
             <div className="">
               <div className="text-4xl font-bold bg-gradient-to-r from-[#013762] via-[#0080E5] bg-clip-text text-transparent">
                 Company Goal
