@@ -27,51 +27,21 @@ const Navbar = () => {
         <span className="cursor-pointer flex items-center">
           Solution <GoChevronDown className="ml-1 font-bold text-2xl" />
         </span>
-        <ul className="absolute lg:left-[-600px] lg:w-[1530px] mt-10 hidden z-100 bg-white text-black shadow-md rounded-md group-hover:block p-2">
+        <ul className="absolute lg:left-[-600px] lg:w-[1530px] mt-10 hidden z-100 bg-gradient-to-r from-[#000F1A] via-[#0080E5] to-[#000F1A] text-black shadow-md rounded-md group-hover:block p-2">
           <div className="flex justify-center items-center gap-6 py-10">
             <a href="/sub-company">
-              <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
-                <figure>
-                  <img
-                    className="w-52 h-52"
-                    src="https://i.postimg.cc/Z57dqvzV/Logo-Man-Enterpirse.jpg"
-                    alt="M/S MAN ENTERPRISE"
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="text-sm text-center">M/S MAN ENTERPRISE</h2>
+              <div className="card bg-base-100 shadow-xl overflow-hidden">
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <img src="https://i.postimg.cc/76JjP9Cr/Rectangle-29-1.png"></img>
+                  </div>
+
+                  <div>
+                    <h1>HR STRATEGY</h1>
+                  </div>
                 </div>
               </div>
             </a>
-
-            <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
-              <figure>
-                <img
-                  className="w-52 h-52 "
-                  src="https://i.postimg.cc/nLftB0xz/Screenshot-from-2024-08-12-12-16-43.png"
-                  alt="Shoes"
-                />
-              </figure>
-
-              <div className="card-body">
-                <h2 className="text-sm text-center">
-                  MR DRILLING & CONSTRUCTION LTD.
-                </h2>
-              </div>
-            </div>
-
-            <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
-              <figure>
-                <img
-                  className="w-52 h-52 "
-                  src="https://i.postimg.cc/DZq018RV/Screenshot-from-2024-08-12-12-09-21.png"
-                  alt="Shoes"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="text-sm text-center">M/S NACALA ENTERPRISE</h2>
-              </div>
-            </div>
           </div>
         </ul>
       </li>
