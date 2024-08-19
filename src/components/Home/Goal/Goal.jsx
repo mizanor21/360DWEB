@@ -7,7 +7,6 @@ const Goal = () => {
   return (
     <div className="goal">
       <div className="mx-5 lg:container lg:mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 font-['Inter']">
-        {/* Company Goal Section */}
         <div className="flex justify-center items-center text-center md:text-left">
           <div>
             <div className="text-4xl font-bold bg-gradient-to-r from-[#013762] via-[#0080E5] bg-clip-text text-transparent">
@@ -28,8 +27,7 @@ const Goal = () => {
           </div>
         </div>
 
-        {/* Vision Section */}
-        <div className="bg vision one">
+        <div className="bg vision">
           <div className="flex flex-col">
             <div className="flex justify-end">
               <div className="mr-5">
@@ -42,7 +40,7 @@ const Goal = () => {
               </div>
             </div>
             <div className="flex justify-end items-end">
-              <div className="text-gray-700 font-[Inter] text-[17px] shadow-xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
                 <p className="w-[250px]">
                   The premier Sourcing and Organizational Development (OD)
                   platform, setting the standard for excellence in our industry
@@ -53,7 +51,6 @@ const Goal = () => {
           </div>
         </div>
 
-        {/* Values Section */}
         <div className="bg values">
           <div className="flex flex-col">
             <div className="flex justify-end">
@@ -78,7 +75,6 @@ const Goal = () => {
           </div>
         </div>
 
-        {/* Mission Section */}
         <div className="bg mission">
           <div className="flex flex-col">
             <div className="flex justify-end">
@@ -92,7 +88,7 @@ const Goal = () => {
               </div>
             </div>
             <div className="flex justify-end items-end">
-              <div className="text-gray-700 font-[Inter] text-[17px] shadow-xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
                 <p className="w-[250px]">
                   Our mission is to provide user-friendly, high-quality
                   resourcing solutions that are trusted, dynamic, and rooted in

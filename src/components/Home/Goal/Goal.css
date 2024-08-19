@@ -6,39 +6,30 @@
 
 .bg {
     position: relative;
-    z-index: 50;
+    z-index: 10;
 }
 
-.one::backdrop {
-    background-image: url(../../../assets/goal/line.png);
-
-}
 
 .bg::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background-size: 70%;
+    height: 120%;
     background-repeat: no-repeat;
     background-position: center;
-    /* Adjust to your needs */
-    z-index: 100;
-    /* Higher than other elements in .vision */
-    pointer-events: none;
-    /* Ensures that the pseudo-element doesn't interfere with user interaction */
 }
 
 .vision::before {
     background-image: url(../../../assets/goal/green.png);
+    background-size: cover;
 }
 
 .values::before {
     background-image: url(../../../assets/goal/orange.png);
+    background-size: cover;
 }
 
 .mission::before {
     background-image: url(../../../assets/goal/blue.png);
+    background-size: cover;
 }
