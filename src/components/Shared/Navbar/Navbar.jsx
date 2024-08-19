@@ -30,14 +30,37 @@ const Navbar = () => {
         <ul className="absolute lg:left-[-600px] lg:w-[1530px] mt-10 hidden z-100 bg-gradient-to-r from-[#000F1A] via-[#0080E5] to-[#000F1A] text-black shadow-md rounded-md group-hover:block p-2">
           <div className="flex justify-center items-center gap-6 py-10">
             <a href="/sub-company">
-              <div className="card bg-base-100 shadow-xl overflow-hidden">
-                <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="grid grid-cols-2 gap-4 shadow-2xl">
                   <div>
-                    <img src="https://i.postimg.cc/76JjP9Cr/Rectangle-29-1.png"></img>
+                    <img
+                      src="https://i.postimg.cc/76JjP9Cr/Rectangle-29-1.png"
+                      alt="HR Strategy"
+                    ></img>
                   </div>
 
+                  <div className="flex justify-center items-center">
+                    <div>
+                      <h1 className="text-lg font-semibold mb-2  text-white">
+                        HR STRATEGY
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-4 shadow-2xl">
                   <div>
-                    <h1>HR STRATEGY</h1>
+                    <img
+                      src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
+                      alt="HR Strategy"
+                    ></img>
+                  </div>
+
+                  <div className="flex justify-center items-center">
+                    <div>
+                      <h1 className="text-lg font-semibold mb-2  text-white">
+                        IT STRATEGY
+                      </h1>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -50,37 +73,49 @@ const Navbar = () => {
           Services <GoChevronDown className="ml-1 font-bold text-2xl" />
         </span>
 
-        <ul className="absolute ease-in duration-1000 lg:left-[-800px] lg:w-[1530px] mt-10 hidden bg-white text-black shadow-md rounded-md group-hover:block p-2">
+        <ul className="absolute lg:left-[-750px] lg:w-[1530px] mt-10 hidden z-100 bg-gradient-to-r from-[#000F1A] via-[#0080E5] to-[#000F1A] text-black shadow-md rounded-md group-hover:block p-2">
           <div className="flex justify-center items-center gap-6 py-10">
-            <div className="card bg-base-100 w-96 shadow-xl">
-              <a href="/list-equipments">
-                <figure>
+            <a href="/sub-company">
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
+                <div className="shadow-2xl">
                   <img
-                    className="w-full h-52 rounded-xl"
-                    src="https://t4.ftcdn.net/jpg/02/49/04/93/360_F_249049329_BpYUPt5TGST3qTTfOJVpTakAdCLFzcg1.jpg"
-                    alt="Shoes"
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="card-title">Equipment list</h2>
+                    src="https://i.postimg.cc/BbWkjFDL/Rectangle-29-2.png"
+                    alt="HR Strategy"
+                  ></img>
+                  <h1 className="text-lg font-semibold my-2 text-center text-white">
+                    HR Services
+                  </h1>
                 </div>
-              </a>
-            </div>
 
-            <div className="card bg-base-100 w-96 shadow-xl">
-              <a href="/photo-equipments">
-                <figure>
+                <div className="shadow-2xl">
                   <img
-                    className="w-full h-52 rounded-xl"
-                    src="https://nmccat.com/wp-content/uploads/2020/09/Cat-Backhoe-1.jpg"
-                    alt="Shoes"
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="card-title">Equipment Photo&apos;s</h2>
+                    src="https://i.postimg.cc/BbWkjFDL/Rectangle-29-2.png"
+                    alt="HR Strategy"
+                  ></img>
+                  <h1 className="text-lg font-semibold my-2 text-center text-white">
+                    IT Services
+                  </h1>
                 </div>
-              </a>
-            </div>
+                <div className="shadow-2xl">
+                  <img
+                    src="https://i.postimg.cc/j2z9PjQ8/Rectangle-32.png"
+                    alt="HR Strategy"
+                  ></img>
+                  <h1 className="text-lg font-semibold my-2 text-center  text-white">
+                    Career Counseling
+                  </h1>
+                </div>
+                <div className="shadow-2xl">
+                  <img
+                    src="https://i.postimg.cc/BbWkjFDL/Rectangle-29-2.png"
+                    alt="HR Strategy"
+                  ></img>
+                  <h1 className="text-lg font-semibold my-2 text-center  text-white">
+                    Health Tourism
+                  </h1>
+                </div>
+              </div>
+            </a>
           </div>
         </ul>
       </li>
