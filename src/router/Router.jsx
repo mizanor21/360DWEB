@@ -3,6 +3,7 @@ import Main from "../layouts/Main";
 import ErrorPage from "../components/Error/ErrorPage";
 import Root from "../components/Home/Root";
 import ExploreUs from "../components/Others/ExploreUs/ExploreUs";
+import ITStrategy from "../components/Others/Solutions/IT/ITStrategy";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/explore",
         element: <ExploreUs />,
+      },
+      {
+        path: "/IT-Strategy",
+        element: <ITStrategy></ITStrategy>,
       },
     ],
   },

@@ -1,6 +1,7 @@
 import { GoChevronDown } from "react-icons/go";
 import { MdOutlineFileDownload } from "react-icons/md";
 import logo from "../../../assets/logo/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // const onButtonClick = () => {
@@ -47,22 +48,24 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-2 gap-4 shadow-2xl">
-                  <div>
-                    <img
-                      src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
-                      alt="HR Strategy"
-                    ></img>
-                  </div>
-
-                  <div className="flex justify-center items-center">
+                <Link to="/IT-Strategy">
+                  <div className="grid grid-cols-2 gap-4 shadow-2xl">
                     <div>
-                      <h1 className="text-lg font-semibold mb-2  text-white">
-                        IT STRATEGY
-                      </h1>
+                      <img
+                        src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
+                        alt="HR Strategy"
+                      ></img>
+                    </div>
+
+                    <div className="flex justify-center items-center">
+                      <div>
+                        <h1 className="text-lg font-semibold mb-2  text-white">
+                          IT STRATEGY
+                        </h1>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </a>
           </div>
@@ -169,8 +172,8 @@ const Navbar = () => {
               <img
                 src={logo}
                 className="w-20"
-                title="Farees Construction Limited (FCL)"
-                alt="FCL logo"
+                title="360D SOUL LIMITED"
+                alt="360D logo"
               />
             </a>
           </div>
