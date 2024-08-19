@@ -1,6 +1,6 @@
 import { GoChevronDown } from "react-icons/go";
 import { MdOutlineFileDownload } from "react-icons/md";
-import logo from "../../../assets/logo/logo.png"; // Adjust the path based on your project structure
+import logo from "../../../assets/logo/logo.png";
 
 const Navbar = () => {
   const onButtonClick = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
         <span className="cursor-pointer flex items-center">
           Solution <GoChevronDown className="ml-1 font-bold text-2xl" />
         </span>
-        <ul className="absolute lg:left-[-600px] lg:w-[1530px] mt-10 hidden bg-white text-black shadow-md rounded-md group-hover:block p-2">
+        <ul className="absolute lg:left-[-600px] lg:w-[1530px] mt-10 hidden z-100 bg-white text-black shadow-md rounded-md group-hover:block p-2">
           <div className="flex justify-center items-center gap-6 py-10">
             <a href="/sub-company">
               <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">

@@ -1,5 +1,6 @@
 import About from "./About/About";
 import Explore from "./Explore/Explore";
+import GlobalPartners from "./GlobalPartners/GlobalPartners";
 import Goal from "./Goal/Goal";
 import Hero from "./Hero/Hero";
 
@@ -10,6 +11,7 @@ const Root = () => {
       <About />
       <Goal />
       <Explore />
+      <GlobalPartners></GlobalPartners>
     </div>
   );
 };
