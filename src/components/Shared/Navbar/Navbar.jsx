@@ -3,17 +3,17 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import logo from "../../../assets/logo/logo.png";
 
 const Navbar = () => {
-  const onButtonClick = () => {
-    fetch("/assets/documents/FCL_Brochure.pdf").then((response) => {
-      response.blob().then((blob) => {
-        const fileURL = window.URL.createObjectURL(blob);
-        const alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "FCL_Brochure.pdf";
-        alink.click();
-      });
-    });
-  };
+  // const onButtonClick = () => {
+  //   fetch("/assets/documents/FCL_Brochure.pdf").then((response) => {
+  //     response.blob().then((blob) => {
+  //       const fileURL = window.URL.createObjectURL(blob);
+  //       const alink = document.createElement("a");
+  //       alink.href = fileURL;
+  //       alink.download = "FCL_Brochure.pdf";
+  //       alink.click();
+  //     });
+  //   });
+  // };
 
   const navItems = (
     <>
@@ -89,7 +89,7 @@ const Navbar = () => {
 
                 <div className="shadow-2xl">
                   <img
-                    src="https://i.postimg.cc/BbWkjFDL/Rectangle-29-2.png"
+                    src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
                     alt="HR Strategy"
                   ></img>
                   <h1 className="text-lg font-semibold my-2 text-center text-white">
@@ -107,7 +107,7 @@ const Navbar = () => {
                 </div>
                 <div className="shadow-2xl">
                   <img
-                    src="https://i.postimg.cc/BbWkjFDL/Rectangle-29-2.png"
+                    src="https://i.postimg.cc/CLsXKzK5/Rectangle-33.png"
                     alt="HR Strategy"
                   ></img>
                   <h1 className="text-lg font-semibold my-2 text-center  text-white">
@@ -181,9 +181,8 @@ const Navbar = () => {
           </div>
           <div className="navbar-end flex items-center">
             <a
-              onClick={onButtonClick}
               href="#"
-              className="bg-black text-white hover:bg-green-700 hover:text-white duration-500 rounded-full px-5 py-2 flex items-center cursor-pointer"
+              className="bg-black text-white hover:text-white duration-500 rounded-full px-5 py-2 flex items-center cursor-pointer"
             >
               Brochure <MdOutlineFileDownload className="ml-2 text-xl" />
             </a>
