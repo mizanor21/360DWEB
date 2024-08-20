@@ -4,6 +4,7 @@ import ErrorPage from "../components/Error/ErrorPage";
 import Root from "../components/Home/Root";
 import ExploreUs from "../components/Others/ExploreUs/ExploreUs";
 import ITStrategy from "../components/Others/Solutions/IT/ITStrategy";
+import HRStrategy from "../components/Others/Solutions/HR/HRStrategy";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/IT-Strategy",
         element: <ITStrategy></ITStrategy>,
+      },
+      {
+        path: "/HR-Strategy",
+        element: <HRStrategy />,
       },
     ],
   },
