@@ -90,15 +90,17 @@ const Navbar = () => {
                   </h1>
                 </div>
 
-                <div className="shadow-2xl">
-                  <img
-                    src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
-                    alt="HR Strategy"
-                  ></img>
-                  <h1 className="text-lg font-semibold my-2 text-center text-white">
-                    IT Services
-                  </h1>
-                </div>
+                <Link to="/IT-Services">
+                  <div className="shadow-2xl">
+                    <img
+                      src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
+                      alt="HR Strategy"
+                    ></img>
+                    <h1 className="text-lg font-semibold my-2 text-center text-white">
+                      IT Services
+                    </h1>
+                  </div>
+                </Link>
                 <div className="shadow-2xl">
                   <img
                     src="https://i.postimg.cc/j2z9PjQ8/Rectangle-32.png"

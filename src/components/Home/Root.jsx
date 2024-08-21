@@ -12,7 +12,7 @@ const Root = () => {
       <About />
       <Goal />
       <Explore />
-      {/* <GlobalPartners></GlobalPartners> */}
+      <GlobalPartners></GlobalPartners>
       {/* <Reviews></Reviews> */}
     </div>
   );
