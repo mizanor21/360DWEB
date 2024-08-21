@@ -6,6 +6,9 @@ import ExploreUs from "../components/Others/ExploreUs/ExploreUs";
 import ITStrategy from "../components/Others/Solutions/IT/ITStrategy";
 import HRStrategy from "../components/Others/Solutions/HR/HRStrategy";
 import ITService from "../components/Others/Services/IT-Service/ITService";
+import HRServices from "../components/Others/Services/HR-Service/HRServices";
+import CareerCouncilingBanner from "../components/Others/Services/Career-Counciling/CareerCounciling";
+import CareerCounciling from "../components/Others/Services/Career-Counciling/CareerCounciling";
 
 const router = createBrowserRouter([
   {
@@ -30,8 +33,16 @@ const router = createBrowserRouter([
         element: <HRStrategy />,
       },
       {
+        path: "HR-Services",
+        element: <HRServices></HRServices>,
+      },
+      {
         path: "IT-Services",
         element: <ITService></ITService>,
+      },
+      {
+        path: "Career-Counciling",
+        element: <CareerCounciling></CareerCounciling>,
       },
     ],
   },

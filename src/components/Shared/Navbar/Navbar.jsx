@@ -78,8 +78,8 @@ const Navbar = () => {
 
         <ul className="absolute lg:left-[-750px] lg:w-[1530px] mt-10 hidden z-100 bg-gradient-to-r from-[#000F1A] via-[#0080E5] to-[#000F1A] text-black shadow-md rounded-md group-hover:block p-2">
           <div className="flex justify-center items-center gap-6 py-10">
-            <a href="/sub-company">
-              <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
+              <Link to="/HR-Services">
                 <div className="shadow-2xl">
                   <img
                     src="https://i.postimg.cc/BbWkjFDL/Rectangle-29-2.png"
@@ -89,18 +89,20 @@ const Navbar = () => {
                     HR Services
                   </h1>
                 </div>
+              </Link>
 
-                <Link to="/IT-Services">
-                  <div className="shadow-2xl">
-                    <img
-                      src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
-                      alt="HR Strategy"
-                    ></img>
-                    <h1 className="text-lg font-semibold my-2 text-center text-white">
-                      IT Services
-                    </h1>
-                  </div>
-                </Link>
+              <Link to="/IT-Services">
+                <div className="shadow-2xl">
+                  <img
+                    src="https://i.postimg.cc/X7bt3w4t/Rectangle-31.png"
+                    alt="HR Strategy"
+                  ></img>
+                  <h1 className="text-lg font-semibold my-2 text-center text-white">
+                    IT Services
+                  </h1>
+                </div>
+              </Link>
+              <Link to="/Career-Counciling">
                 <div className="shadow-2xl">
                   <img
                     src="https://i.postimg.cc/j2z9PjQ8/Rectangle-32.png"
@@ -110,17 +112,17 @@ const Navbar = () => {
                     Career Counseling
                   </h1>
                 </div>
-                <div className="shadow-2xl">
-                  <img
-                    src="https://i.postimg.cc/CLsXKzK5/Rectangle-33.png"
-                    alt="HR Strategy"
-                  ></img>
-                  <h1 className="text-lg font-semibold my-2 text-center  text-white">
-                    Health Tourism
-                  </h1>
-                </div>
+              </Link>
+              <div className="shadow-2xl">
+                <img
+                  src="https://i.postimg.cc/CLsXKzK5/Rectangle-33.png"
+                  alt="HR Strategy"
+                ></img>
+                <h1 className="text-lg font-semibold my-2 text-center  text-white">
+                  Health Tourism
+                </h1>
               </div>
-            </a>
+            </div>
           </div>
         </ul>
       </li>
