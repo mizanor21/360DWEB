@@ -11,9 +11,9 @@ const Root = () => {
       <Hero />
       <About />
       <Goal />
-      <Explore />
-      <GlobalPartners></GlobalPartners>
-      <Reviews></Reviews>
+      {/* <Explore /> */}
+      {/* <GlobalPartners></GlobalPartners> */}
+      {/* <Reviews></Reviews> */}
     </div>
   );
 };

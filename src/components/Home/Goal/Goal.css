@@ -22,6 +22,7 @@
 .vision::before {
     background-image: url(../../../assets/goal/green.png);
     background-size: cover;
+
 }
 
 .values::before {
@@ -32,4 +33,13 @@
 .mission::before {
     background-image: url(../../../assets/goal/blue.png);
     background-size: cover;
+}
+
+@media (max-width: 1200px) {
+
+    .vision::before,
+    .values::before,
+    .mission::before {
+        display: none;
+    }
 }

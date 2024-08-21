@@ -10,13 +10,15 @@ import twitter from "../../../assets/footer/twitter.png";
 const Footer = () => {
   return (
     <div className="bg-[#01121e] bg-gradient-to-r from-[#000F1A] to-[#003259]">
-      <footer className="footer text-white p-10 lg:p-[118px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 items-center ">
+      <footer className="footer text-white p-5 lg:p-[118px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 items-center ">
         <aside>
-          <img
-            className="w-[235px] h-[119px] mb-[25px]"
-            src={logo}
-            alt="360d soul logo"
-          />
+          <div className="flex justify-center">
+            <img
+              className=" w-[180px] lg:w-[235px] lg:h-[119px] my-[20px]"
+              src={logo}
+              alt="360d soul logo"
+            />
+          </div>
           <div className=" text-justify text-[#cdcdcd] font-medium font-['Inter']">
             360D SOUL Limited has adopted the highest standards of IT service
             and consultancy quality and operational excellence, enabling its

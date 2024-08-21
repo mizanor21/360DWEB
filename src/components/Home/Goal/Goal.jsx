@@ -40,8 +40,8 @@ const Goal = () => {
               </div>
             </div>
             <div className="flex justify-end items-end">
-              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
-                <p className="w-[250px]">
+              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end lg:rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+                <p className="lg:w-[250px]">
                   The premier Sourcing and Organizational Development (OD)
                   platform, setting the standard for excellence in our industry
                   worldwide.
@@ -64,8 +64,8 @@ const Goal = () => {
               </div>
             </div>
             <div className="flex justify-end items-end">
-              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
-                <p className="w-[250px]">
+              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end lg:rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+                <p className="lg:w-[250px]">
                   Offers comprehensive, cost-effective solutions for businesses
                   of all types, from established enterprises to emerging
                   startups.
@@ -88,8 +88,8 @@ const Goal = () => {
               </div>
             </div>
             <div className="flex justify-end items-end">
-              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
-                <p className="w-[250px]">
+              <div className="text-gray-700 font-[Inter] text-[17px] shadow-2xl bg-white w-[500px] flex justify-end lg:rounded-tl-[100px] rounded-md p-3 leading-relaxed text-justify">
+                <p className="lg:w-[250px]">
                   Our mission is to provide user-friendly, high-quality
                   resourcing solutions that are trusted, dynamic, and rooted in
                   local expertise, while simultaneously.

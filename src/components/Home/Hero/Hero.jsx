@@ -4,14 +4,14 @@ import "./Hero.css";
 import banner2 from "../../../assets/banner/slider2.png";
 const Reviews = () => {
   return (
-    <div className="bg min-h-[700px] font-[Inter] pt-6">
+    <div className="bg lg:min-h-[700px] font-[Inter]">
       <div>
         <Carousel
           additionalTransfrom={0}
           arrows
           autoPlaySpeed={3000}
           centerMode={false}
-          className=" container mx-auto pt-10"
+          className=" lg:container lg:mx-auto py-10"
           containerClass="container-with-dots"
           dotListClass=""
           draggable
@@ -60,8 +60,8 @@ const Reviews = () => {
           swipeable
         >
           <div className="flex gap-5 relative">
-            <img className="w-[350px] lg:w-[1000px] mb-10" src={banner2} />
-            <div className="absolute hidden md:block lg:w-[900px] top-20 right-[0px] p-20 bg-white shadow-lg rounded-md ">
+            <img className="w-full lg:w-[1000px]" src={banner2} />
+            <div className="absolute hidden md:block lg:w-[900px] top-20 right-[0px] lg:p-20 bg-white shadow-lg rounded-md ">
               <div className="">
                 <div className="text-4xl font-bold bg-gradient-to-r from-[#013762] via-[#0080E5] bg-clip-text text-transparent">
                   Company Goal
