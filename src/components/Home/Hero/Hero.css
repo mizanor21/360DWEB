@@ -4,3 +4,23 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (min-width: 1400px) and (max-width: 1550px) {
+    .custom-width {
+        width: 800px;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .custom-width {
+        width: 700px;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 463px) and (max-width: 1020px) {
+    .none {
+        display: none;
+    }
+}
