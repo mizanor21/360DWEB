@@ -19,10 +19,10 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/about">Explore</a>
+        <Link to="/about">Explore</Link>
       </li>
       <li className="relative group">
         <span className="cursor-pointer flex items-center">
@@ -30,7 +30,7 @@ const Navbar = () => {
         </span>
         <ul className="absolute lg:left-[-600px] lg:w-[1530px] mt-10 hidden z-100 bg-gradient-to-r from-[#000F1A] via-[#0080E5] to-[#000F1A] text-black shadow-md rounded-md group-hover:block p-2">
           <div className="flex justify-center items-center gap-6 py-10">
-            <a href="/HR-Strategy">
+            <a to="/HR-Strategy">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                 <div className="grid grid-cols-2 gap-4 shadow-2xl">
                   <div>
@@ -128,10 +128,10 @@ const Navbar = () => {
       </li>
 
       <li>
-        <a href="/projects">Blogs</a>
+        <Link to="/projects">Blogs</Link>
       </li>
       <li>
-        <a href="/career">Career</a>
+        <Link to="/career">Career</Link>
       </li>
       <li>
         <Link to="/contact">Contact</Link>
@@ -172,14 +172,14 @@ const Navbar = () => {
                 {navItems}
               </ul>
             </div>
-            <a href="/" className="text-5xl ">
+            <Link to="/" className="text-5xl ">
               <img
                 src={logo}
                 className="w-20"
                 title="360D SOUL LIMITED"
                 alt="360D logo"
               />
-            </a>
+            </Link>
           </div>
           <div className="navbar-center hidden lg:flex flex-grow">
             <ul className="menu menu-horizontal px-1 flex items-center text-[18px]">
@@ -188,7 +188,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-end flex items-center">
             <a
-              href="#"
+              to="#"
               className="bg-black text-white hover:text-white duration-500 rounded-full px-5 py-2 flex items-center cursor-pointer"
             >
               Brochure <MdOutlineFileDownload className="ml-2 text-xl" />
