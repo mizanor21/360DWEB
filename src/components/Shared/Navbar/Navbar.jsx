@@ -30,7 +30,7 @@ const Navbar = () => {
         </span>
         <ul className="absolute lg:left-[-600px] lg:w-[1530px] mt-10 hidden z-100 bg-gradient-to-r from-[#000F1A] via-[#0080E5] to-[#000F1A] text-black shadow-md rounded-md group-hover:block p-2">
           <div className="flex justify-center items-center gap-6 py-10">
-            <a href="/sub-company">
+            <a href="/HR-Strategy">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                 <div className="grid grid-cols-2 gap-4 shadow-2xl">
                   <div>
@@ -134,7 +134,7 @@ const Navbar = () => {
         <a href="/career">Career</a>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <Link to="/contact">Contact</Link>
       </li>
     </>
   );

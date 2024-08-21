@@ -13,7 +13,7 @@ const Root = () => {
       <Goal />
       <Explore />
       {/* <GlobalPartners></GlobalPartners> */}
-      {/* <Reviews></Reviews> */}
+      <Reviews></Reviews>
     </div>
   );
 };

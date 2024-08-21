@@ -1,5 +1,11 @@
+import HRBanner from "./HRBanner";
+
 const HRStrategy = () => {
-  return <div></div>;
+  return (
+    <div>
+      <HRBanner></HRBanner>
+    </div>
+  );
 };
 
 export default HRStrategy;

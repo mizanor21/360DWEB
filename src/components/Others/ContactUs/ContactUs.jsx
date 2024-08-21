@@ -1,5 +1,11 @@
+import ContactUsBanner from "./ContactBanner";
+
 const ContactUs = () => {
-  return <div>this is a contact</div>;
+  return (
+    <div>
+      <ContactUsBanner></ContactUsBanner>
+    </div>
+  );
 };
 
 export default ContactUs;
