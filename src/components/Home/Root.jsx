@@ -3,16 +3,18 @@ import Explore from "./Explore/Explore";
 import GlobalPartners from "./GlobalPartners/GlobalPartners";
 import Goal from "./Goal/Goal";
 import Hero from "./Hero/Hero";
+import Plan from "./Plan/Plan";
 import Reviews from "./Reviews/Reviews";
 
 const Root = () => {
   return (
     <div>
       <Hero />
+      <Plan />
       <About />
       <Goal />
       <Explore />
-      {/* <GlobalPartners></GlobalPartners> */}
+      <GlobalPartners></GlobalPartners>
       <Reviews></Reviews>
     </div>
   );

@@ -189,7 +189,6 @@ const logos = [
     logo: "https://i.postimg.cc/KjQk1GTL/pngegg-2.png",
   },
 ];
-
 const GlobalPartners = () => {
   const [selectedLogo, setSelectedLogo] = useState(logos[0]);
 
